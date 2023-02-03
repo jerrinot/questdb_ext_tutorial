@@ -49,7 +49,7 @@ If this tutorial is working then you can try to modify the code and see how it a
 Pop in at the [QuestDB Slack](https://questdb.io/slack) if you have any questions!
 
 ## Going Deeper
-This tutorials shows how to create a simple pure function: It makes a string column from a single row to integer.
+This tutorials shows how to create a simple pure function: It maps a string column from a single row to integer.
 
 The next step could be a custom aggregation/GroupBy function: A function which receives data from multiple rows and produces a single value. This is a bit more involved, but it's a good way to learn more about QuestDB internals.
 
