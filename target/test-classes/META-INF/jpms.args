@@ -1,4 +1,0 @@
---patch-module
-io.questdb.ext.wordcount=_
---add-reads
-io.questdb.ext.wordcount=ALL-UNNAMED
