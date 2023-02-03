@@ -54,4 +54,4 @@ This tutorials shows how to create a simple pure function: It maps a string colu
 The next step could be a custom aggregation/GroupBy function: A function which receives data from multiple rows and produces a single value. This is a bit more involved, but it's a good way to learn more about QuestDB internals.
 
 ## Disclaimer
-Java API for functions is not officially support QuestDB. It is subject to change in the future. Always test your custom functions before upgrading QuestDB.
+Java API for functions is not officially supported by QuestDB. It is subject to change in the future. Always test your custom functions before upgrading QuestDB.
