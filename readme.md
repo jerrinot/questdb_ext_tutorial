@@ -43,10 +43,15 @@ This is how you install the extension to QuestDB installed on MacOS using Homebr
 
 If you use a different QuestDB distribution then the paths will be different, but the basic principle is still the same: You need to copy the JAR file to the QuestDB installation directory and add it to the module path.
 
-## Further Steps
+## Modifications
 If this tutorial is working then you can try to modify the code and see how it affects the extension. If you do not have Java IDE then Intellij [IDEA Community Edition](https://www.jetbrains.com/idea/download/) is a good choice. It's free and has a good support for Java development. VS.Code is also a good choice, but it does require a bit of tweaking to get it working with Java.
 
 Pop in at the [QuestDB Slack](https://questdb.io/slack) if you have any questions!
+
+## Going Deeper
+This tutorials shows how to create a simple pure function: It makes a string column from a single row to integer.
+
+The next step could be a custom aggregation/GroupBy function: A function which receives data from multiple rows and produces a single value. This is a bit more involved, but it's a good way to learn more about QuestDB internals.
 
 ## Disclaimer
 Java API for functions is not officially support QuestDB. It is subject to change in the future. Always test your custom functions before upgrading QuestDB.
